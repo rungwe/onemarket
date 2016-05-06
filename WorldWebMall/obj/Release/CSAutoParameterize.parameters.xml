@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="Data Source=(LocalDb)\v11.0;AttachDbFilename=|DataDirectory|\aspnet-WorldWebMall-20150814031743.mdf;Initial Catalog=aspnet-WorldWebMall-20150814031743;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\tariro\\Source\\Repos\\restapp\\WorldWebMall\\WorldWebMall\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="WorldWebMallContext-Web.config Connection String" description="WorldWebMallContext Connection String used in web.config by the application to access the database." defaultValue="Data Source=(localdb)\v11.0; Initial Catalog=WorldWebMallContext-20150814153511; Integrated Security=True; MultipleActiveResultSets=True; AttachDbFilename=|DataDirectory|WorldWebMallContext-20150814153511.mdf" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\tariro\\Source\\Repos\\restapp\\WorldWebMall\\WorldWebMall\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='WorldWebMallContext']/@connectionString" />
+  </parameter>
+  <parameter name="MallContext-Web.config Connection String" description="MallContext Connection String used in web.config by the application to access the database." defaultValue="Data Source=(localdb)\v11.0; Initial Catalog=MallContext-20150816113940; Integrated Security=True; MultipleActiveResultSets=True; AttachDbFilename=|DataDirectory|MallContext-20150816113940.mdf" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\tariro\\Source\\Repos\\restapp\\WorldWebMall\\WorldWebMall\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MallContext']/@connectionString" />
+  </parameter>
+  <parameter name="model_prime-Web.config Connection String" description="model_prime Connection String used in web.config by the application to access the database." defaultValue="data source=(localdb)\v11.0;attachdbfilename=|DataDirectory|\MallContext-20150816113940.mdf;initial catalog=MallContext-20150816113940;integrated security=True;multipleactiveresultsets=True;App=EntityFramework" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\tariro\\Source\\Repos\\restapp\\WorldWebMall\\WorldWebMall\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='model_prime']/@connectionString" />
+  </parameter>
+  <parameter name="model_test-Web.config Connection String" description="model_test Connection String used in web.config by the application to access the database." defaultValue="data source=(localdb)\v11.0;attachdbfilename=|DataDirectory|\MallContext-20150816113940.mdf;initial catalog=MallContext-20150816113940;integrated security=True;multipleactiveresultsets=True;application name=EntityFramework" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\tariro\\Source\\Repos\\restapp\\WorldWebMall\\WorldWebMall\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='model_test']/@connectionString" />
+  </parameter>
+</parameters>
